@@ -69,4 +69,52 @@ body {
   }
   
  
-  
+  /* Hide hamburger by default */
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  background: none;
+  border: none;
+  color: #000;
+  cursor: pointer;
+}
+
+/* Normal nav layout (desktop) */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  nav {
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  nav.active {
+    display: flex;
+  }
+
+  nav a {
+    padding: 0.75rem 0;
+    border-top: 1px solid #eee;
+  }
+
+  .logo-nav {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
