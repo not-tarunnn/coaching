@@ -394,7 +394,7 @@ input, select {
 }
 
 .submit-btn {
-  background-color: #0073e6;  /* Blue background */
+  background-color: #901c04;  /* marooonbackground */
   color: white;               /* White text */
   font-weight: bold;          /* Bold text */
   padding: 12px 32px;         /* Size of the button */
@@ -408,7 +408,7 @@ input, select {
 }
 
 .submit-btn:hover {
-  background-color: #005bb5;  /* Slightly darker blue on hover */
+  background-color:rgb(97, 17, 1);  /* Slightly darker maroon on hover */
 }
 
 .button-container {
