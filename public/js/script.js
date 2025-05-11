@@ -48,3 +48,4 @@ function autoSlide() {
 
 showSlide(0); // initial
 setInterval(autoSlide, 4000); // every 4s
+
