@@ -426,43 +426,6 @@ body {
   margin: 0;
 }
 
-.slideshow-container {
-  position: absolute;
-  top: 200px;
-  left: 300px;
-  width: 360px;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 0px 0px rgba(0,0,0,0.1);
-  background: white;
-}
-
-.slide {
-  display: none;
-  width: 100%;
-}
-
-.slide img {
-  width: 100%;
-  display: block;
-}
-
-.dots {
-  text-align: center;
-  padding: 10px;
-  background: #fff;
-}
-
-.dot {
-  height: 12px;
-  width: 12px;
-  margin: 0 4px;
-  background-color: #ccc;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.3s ease;
-  cursor: pointer;
-}
 
 .active {
   background-color: #333;
@@ -616,3 +579,95 @@ body {
     height: 40px;
   }
 }
+
+.header-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.circle-button {
+  position: absolute;
+  top: 20px;
+  right: 150px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+.circle-button img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.circle-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+.slide-text {
+  position: absolute;
+  bottom: 60px;
+  left: 100px;
+  color: rgb(255, 255, 255);
+  font-size: 46px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-family: 'Roboto', sans-serif;;
+}
+
+
+h1 {
+  margin-bottom: 40px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 50px;
+  overflow-x: auto;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    flex-wrap: wrap;
+  }
+}
+
+
+.card {
+  background-color: #f0f5fc;
+  border-radius: 16px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  text-align: left;
+}
+
+.card img {
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.card p {
+  font-size: 0.95em;
+  line-height: 1.5;
+  color: #333;
+}
+
+.section-title {
+  font-size: 2em;
+  margin-bottom: 40px;
+  color: #111;
+}
+

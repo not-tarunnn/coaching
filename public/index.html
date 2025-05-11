@@ -6,6 +6,7 @@
   <title>Best NEET Coaching </title>
   <link rel="stylesheet" href="css/style.css" />
   <link rel="icon" href="assets/images/favicon.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -72,6 +73,10 @@
   <div class="header-right">
     <button class="login-button">Login</button>
   </div>
+  <div class="header-container">
+      <div class="circle-button">
+        <img src="assets/images/call.jpg" alt="Icon Button">
+      </div>
   </header>
 
   
@@ -80,32 +85,37 @@
   <main>
     <!-- Section 1: Blue -->
     <section class="full-screen light-blue" id="section1">
-      <div class="slideshow-container">
-        <div class="slide">
-          <img src="slide1.png" alt="Slide 1">
-        </div>
-        <div class="slide">
-          <img src="slide2.png" alt="Slide 2">
-        </div>
-        <div class="slide">
-          <img src="slide3.png" alt="Slide 3">
-        </div>
       
-        <div class="dots">
-          <span class="dot" onclick="showSlide(0)"></span>
-          <span class="dot" onclick="showSlide(1)"></span>
-          <span class="dot" onclick="showSlide(2)"></span>
-        </div>
-      </div>
       
-      <script src="script.js"></script>
+    
     </section>
   
     <!-- Section 2: White -->
     <section class="full-screen white" id="section2">
+        <div class="why-wrapper">
+      <h1 class="section-title">Why go to ALEX ?</h1>
       <div class="container">
-        <h2>Courses</h2>
-      </div>
+    <div class="card">
+      <img src="https://img.icons8.com/ios-filled/50/000000/classroom.png" alt="Kota Faculty Icon">
+      <h3>Top Notch Faculty</h3>
+      <p>Our institute is powered by a team of highly qualified and passionate educators who bring both academic expertise and real-world experience.</p>
+    </div>
+    <div class="card">
+      <img src="https://img.icons8.com/ios-filled/50/000000/prize.png" alt="Proven Results Icon">
+      <h3>Updated Curriculum</h3>
+      <p>We follow a dynamic curriculum that evolves with the latest exam patterns, industry trends, and academic standards.</p>
+    </div>
+    <div class="card">
+      <img src="https://img.icons8.com/ios-filled/50/000000/book.png" alt="Learning Tools Icon">
+      <h3>Learning Approach</h3>
+      <p>With small batches, regular assessments, and one-on-one doubt sessions, we ensure every student understands the concepts deeply and confidently.</p>
+    </div>
+    <div class="card">
+      <img src="https://img.icons8.com/ios-filled/50/000000/conference-call.png" alt="Mentor Support Icon">
+      <h3>Mentor Guidance</h3>
+      <p>Our mentors provide personalized guidance, motivation, and career advice. They walk alongside students through every challenge.</p>
+    </div>
+  </div>
     </section>
   
     <!-- Section 3: slideshow -->
@@ -115,7 +125,9 @@
     <div class="slide"><img src="assets/images/image1.png" alt="Image 1"></div>
     <div class="slide"><video src="assets/images/video.mp4" muted autoplay loop></video></div>
     <div class="slide"><img src="assets/images/image2.png" alt="Image 2"></div>
-    <div class="slide"><img src="assets/images/image3.png" alt="Image 3"></div>
+    <div class="slide"><img src="assets/images/image3.png" alt="Image 3">
+    <div class="slide-text">SCO 332-333-334, (4th Floor) <br> Sector 34-A <br> Chandigarh</div>
+  </div>
   </div>
   <div class="location-map">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3429.894389229754!2d76.76440927544046!3d30.721369274589673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fed92fc58b477%3A0x651e24ca6abbca26!2sAlex%20Career%20Institute!5e0!3m2!1sen!2sin!4v1746934776634!5m2!1sen!2sin"
@@ -136,12 +148,12 @@
           <div class="form-row">
             <div class="form-group">
               <label for="name">Student's full name<span style="color: red;">*</span></label>
-              <input type="text" id="name" name="name" placeholder="Ex: Rohit Singh" required>
+              <input type="text" id="name" name="name" placeholder="Ex: Tarun " required>
             </div>
   
             <div class="form-group">
               <label for="mobile">Mobile Number<span style="color: red;">*</span></label>
-              <input type="tel" id="mobile" name="mobile" placeholder="Ex : +91 9876543210" required>
+              <input type="tel" id="mobile" name="mobile" placeholder="Ex : +91 1234567890" required>
             </div>
           </div>
     
