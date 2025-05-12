@@ -2,6 +2,7 @@ body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f5f7fa;
+  overflow-x: hidden;
 }
 
 
@@ -964,4 +965,21 @@ ul {
   flex-wrap: nowrap;
   height: 17vh;
   width: 100vw;
+}
+
+.promo{
+  display: flex;
+  justify-content: center;
+  height: 34px;
+  object-fit: contain;
+  width: 100vw;
+}
+
+.promo img{
+  height: 40px;
+  width: 100vw;
+  overflow: hidden;
+  object-fit: cover;
+  padding-top: 10px;
+  margin-right: 5px;
 }
