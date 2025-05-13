@@ -26,7 +26,8 @@ header {
 }
 
 .logo {
-  height: 40px;
+  height: 90%;
+  max-height: 40px;
   margin-right: 1rem;
 }
 
@@ -735,6 +736,7 @@ h1 {
 
 .scholarship-container {
   position: absolute;
+  border: 3px dashed #981c04;
   top: 140px;     /* Adjust as needed */
   right: 160px;
   padding: 40px;
