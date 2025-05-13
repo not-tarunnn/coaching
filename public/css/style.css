@@ -962,7 +962,7 @@ ul {
   height: auto;        /* Maintains aspect ratio */
   width: 100%;          /* Adjust size as needed */
   display: inline-block;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .promo{
