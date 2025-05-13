@@ -642,7 +642,7 @@ h1 {
 
 
 .card {
-  background-color: #efb39d93;
+  background-color: #edf2fa;
   border-radius: 16px;
   padding: 20px;
   width: 250px;
@@ -680,7 +680,7 @@ h1 {
 .salideshow-container {
   position: absolute;
   width: 600px;
-  height: 300px;
+  height: 330px;
   overflow: hidden;
   border-radius: 20px;
 }
@@ -695,7 +695,7 @@ h1 {
   width: 100%;
   height: 100%;
   object-fit: cover;         /* Ensures it covers the container */
-  object-position: 50% 80%;   /* Focuses on the bottom part */
+  object-position: 50% 79%;   /* Focuses on the bottom part */
   border-radius: 20px;
 }
 
@@ -833,7 +833,7 @@ ul {
 }
 
 .muah {
-  height: 70vh; /* Full screen height */
+  height: 80vh; /* Full screen height */
   width: 100w;
   display: flex;
   align-items: center;
@@ -841,7 +841,7 @@ ul {
   
 }
 .cutie {
-  height: 200vh; /* Full screen height */
+  height: 190vh; /* Full screen height */
   width: 100w;
   display: grid;
   grid-template-columns: 1fr; /* One column */
@@ -877,13 +877,13 @@ ul {
   justify-content: center;
   gap: 100px;
   flex-wrap: nowrap;
-  height: 70vh;
+  height: 45vh;
   width: 80vw;
 }
 
 /* Styles for each course box */
 .course-box {
-  background-color: #b54f4f;
+  background-color: #edf2fa;
   border-radius: 30px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -914,12 +914,11 @@ ul {
 /* Image container styles */
 .image-containerk {
   position: absolute;
-  bottom: 20px;
-  right: 20px;
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  overflow: hidden;
+  bottom: 0px;
+  right: 0px;
+  width: 200px;
+  height: 300px;
+  border-radius: 0px;
 }
 
 .image-containerk img {
@@ -930,22 +929,22 @@ ul {
 
 /* Button styles */
 .enroll-btn {
-  background-color: #4CAF50;
+  background-color: #981c04;
   color: white;
   border: none;
   padding: 10px 20px;
-  border-radius: 5px;
+  border-radius: 999px;
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .enroll-btn:hover {
-  background-color: #45a049;
+  background-color: #318d35;
 }
 
 .banur{
-  background-color: #ff0000;
+  background-color: #932a49eb;
   border-radius: 60px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
