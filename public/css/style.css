@@ -674,7 +674,7 @@ h1 {
 
 .card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 20px 40px #d06c745e;
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 .salideshow-container {
@@ -734,7 +734,6 @@ h1 {
 }
 
 .scholarship-container {
-  background-color: #eef3fb;
   position: absolute;
   top: 140px;     /* Adjust as needed */
   right: 160px;
@@ -883,7 +882,7 @@ ul {
 
 /* Styles for each course box */
 .course-box {
-  background-color: #edf2fa;
+  background-color: #d05c65;
   border-radius: 30px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -916,8 +915,8 @@ ul {
   position: absolute;
   bottom: 0px;
   right: 0px;
-  width: 200px;
-  height: 300px;
+  width: 160px;
+  height: 260px;
   border-radius: 0px;
 }
 
@@ -944,26 +943,24 @@ ul {
 }
 
 .banur{
-  background-color: #932a49eb;
+  background-color: #ffffffeb;
   border-radius: 60px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
   padding: 20px;
   width: 75%;
+  height: 26vh;
   position: relative;
   overflow: hidden;
   transition: transform 0.3s ease;
   margin-left: 150px;
 }
 
-.banur-ctn{
- margin-top: 50px;
-  margin-left: 200px;
-  display: flex;
-  justify-content: center;
-  gap: 100px;
-  flex-wrap: nowrap;
-  height: 17vh;
-  width: 100vw;
+.banur img {
+  max-width: 100%;     /* Makes image responsive */
+  height: auto;        /* Maintains aspect ratio */
+  width: 100%;          /* Adjust size as needed */
+  display: inline-block;
+  transform: scale(1.2);
 }
 
 .promo{
@@ -982,3 +979,4 @@ ul {
   padding-top: 10px;
   margin-right: 5px;
 }
+
